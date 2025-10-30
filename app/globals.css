@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FFFFFF;
+  --fg: #0A0A0A;
+  --muted: #666666;
+  --line: #E5E5E5;
+  --panel: #FAFAFA;
+  --bg-inv: #0A0A0A;
+  --fg-inv: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+  
+  body {
+    @apply bg-bg text-fg antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    @apply text-fg;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-bg border border-line p-6;
+    border-radius: 0.75rem; /* 12px */
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-sm font-medium transition-all duration-200 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fg focus-visible:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-bg-inv text-fg-inv hover:bg-[#111111];
+  }
+  
+  .btn-ghost {
+    @apply btn bg-bg text-fg border border-line hover:bg-bg-inv hover:text-fg-inv hover:border-bg-inv;
+  }
+  
+  .section {
+    @apply py-24;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-6;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .subtle {
+    color: var(--muted);
+  }
+}
+
