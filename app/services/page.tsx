@@ -90,7 +90,7 @@ export default function ServicesPage() {
               Ready to Discuss Your Project?
             </h2>
             <p className="text-lg text-muted mb-8">
-              Let's create a custom plan that brings your vision to life.
+              Let&apos;s create a custom plan that brings your vision to life.
             </p>
             <a href="/contact" className="btn-primary">
               Get in Touch

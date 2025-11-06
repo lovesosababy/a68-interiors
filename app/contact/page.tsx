@@ -5,10 +5,10 @@ export default function ContactPage() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-serif font-semibold mb-6">
-              Let's Work Together
+              Let&apos;s Work Together
             </h1>
             <p className="text-xl text-muted leading-relaxed">
-              Ready to transform your space? We'd love to hear about your project and discuss how we can bring your vision to life.
+              Ready to transform your space? We&apos;d love to hear about your project and discuss how we can bring your vision to life.
             </p>
           </div>
         </div>

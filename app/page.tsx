@@ -105,7 +105,7 @@ With Confident Design
               Ready to Get Started?
             </h2>
             <p className="text-lg text-muted mb-8">
-              Let's discuss your project and create a space you'll love.
+              Let&apos;s discuss your project and create a space you&apos;ll love.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/contact" className="btn-primary">

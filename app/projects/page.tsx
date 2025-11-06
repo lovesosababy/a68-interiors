@@ -12,7 +12,7 @@ export default function ProjectsPage() {
               Our Projects
             </h1>
             <p className="text-xl text-muted leading-relaxed">
-              Explore our portfolio of residential and commercial projects, each one a unique reflection of our clients' vision and our design expertise.
+              Explore our portfolio of residential and commercial projects, each one a unique reflection of our clients&apos; vision and our design expertise.
             </p>
           </div>
         </div>
@@ -61,10 +61,10 @@ export default function ProjectsPage() {
         <div className="container">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-4xl font-serif font-semibold mb-6">
-              Let's Create Something Beautiful
+              Let&apos;s Create Something Beautiful
             </h2>
             <p className="text-lg text-muted mb-8">
-              Ready to start your own project? We'd love to hear from you.
+              Ready to start your own project? We&apos;d love to hear from you.
             </p>
             <a href="/contact" className="btn-primary">
               Contact Us

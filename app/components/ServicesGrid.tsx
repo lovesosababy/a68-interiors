@@ -1,5 +1,7 @@
 "use client"
 
+import Image from 'next/image'
+
 interface Service {
   title: string
   blurb: string
@@ -64,11 +66,12 @@ export default function ServicesGrid({ services }: ServicesGridProps) {
           className="card overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
         >
           {/* Image with overlapping icon badge */}
-          <div className="relative">
-            <img 
+          <div className="relative aspect-[4/3] border-b border-line">
+            <Image 
               src={service.image} 
               alt={service.alt}
-              className="h-auto w-full aspect-[4/3] object-cover border-b border-line"
+              fill
+              className="object-cover"
               loading="lazy"
             />
             

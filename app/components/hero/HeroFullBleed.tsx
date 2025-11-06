@@ -1,5 +1,7 @@
 "use client"
 
+import Image from 'next/image'
+
 type HeroFullBleedProps = {
   imageSrc: string
   heading: string
@@ -26,11 +28,13 @@ export default function HeroFullBleed({
       data-hero
     >
       {/* Background image */}
-      <img
+      <Image
         src={imageSrc}
         alt=""
-        className="absolute inset-0 h-full w-full object-cover"
+        fill
+        className="object-cover"
         style={{ objectPosition: 'center' }}
+        priority
       />
       
       {/* Dark gradient overlay for readability */}
