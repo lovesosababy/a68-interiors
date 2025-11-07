@@ -80,7 +80,7 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 {Icon.mail}
                 <a 
-                  href="mailto:a68interiors@gmail.com" 
+                  href="mailto:info@a68interiors.com" 
                   className="hover:text-fg hover:underline transition-colors focus:outline-none focus:underline"
                 >
                   a68interiors@gmail.com
