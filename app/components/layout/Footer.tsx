@@ -83,7 +83,7 @@ export default function Footer() {
                   href="mailto:info@a68interiors.com" 
                   className="hover:text-fg hover:underline transition-colors focus:outline-none focus:underline"
                 >
-                  a68interiors@gmail.com
+                  info@a68interiors.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
