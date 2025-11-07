@@ -26,8 +26,8 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">Email</h3>
-                  <a href="mailto:a68interiors@gmail.com" className="text-muted hover:text-fg transition-colors">
-                    a68interiors@gmail.com
+                  <a href="mailto:info@a68interiors.com" className="text-muted hover:text-fg transition-colors">
+                  info@a68interiors.com
                   </a>
                 </div>
                 
