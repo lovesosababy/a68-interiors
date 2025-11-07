@@ -54,8 +54,8 @@ With Confident Design
         subheading="Expert kitchen, bathroom, and whole-home renovations in Vancouver. From concept to completion, we bring your vision to life with precision and care."
         primaryHref="/contact"
         primaryLabel="Book Your Free Design Consult"
-        phoneHref="tel:+16729995370"
-        phoneLabel="(672) 999-5370"
+        phoneHref="tel:+17783819338"
+        phoneLabel="(778) 381-9338"
       />
 
       {/* Company Info Bar */}
